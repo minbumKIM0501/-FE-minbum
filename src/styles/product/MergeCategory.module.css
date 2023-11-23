@@ -1,0 +1,36 @@
+.selectedCategories {
+    position: relative;
+    display: flex;
+    align-content: center;
+  }
+  
+  .selectedCategory {
+    width: 168px;
+    height: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    border-left: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+    border-bottom: 1px solid #222222;
+    border-top: 1px solid #D9D9D9;
+  }
+
+  .clickedSelectedCategory {
+    width: 168px;
+    height: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+
+    border-top: 1px solid #222222;
+    border-left: 1px solid #222222;
+    border-right: 1px solid #222222;
+    border-collapse:collapse;
+  }

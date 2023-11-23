@@ -1,0 +1,42 @@
+.productItemContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.productList {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 27px;
+  margin-bottom: 75px;
+}
+
+.productItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productFilterContainer {
+  position: relative;
+}
+
+.productFilter {
+  position: relative;
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 46px;
+}
+
+.filterName {
+  margin-top: 13px;
+}
+
+.addItem {
+  position: relative;
+  margin-top: 21px;
+  margin-bottom: 18px;
+}

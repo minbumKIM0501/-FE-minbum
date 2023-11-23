@@ -1,0 +1,9 @@
+.mergeMain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 1400px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,71 @@
+
+.clearfix:before, .clearfix:after{
+  display: block;
+  content:'';
+  clear: both;
+}
+
+
+.barCenter{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.paging{
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+  }
+  
+  .buttons{
+    cursor: pointer;
+    padding:1% 1.5%;;
+    background-color: #ffffff;
+    border: 1px solid #C7C6C6;
+    color: #C7C6C6;
+    cursor: pointer;
+  }
+  
+  .buttons{
+    border-right: none ;
+  }
+
+  .lastButton{
+    cursor: pointer;
+    padding:1% 1.5%;;
+    background-color: #ffffff;
+    border: 1px solid #C7C6C6;
+    color: #C7C6C6;
+    cursor: pointer;
+  }
+
+  .arrowBtn {
+    width: 40px;
+    height: 34px;
+  }
+
+  .numBtn {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .buttons:active{
+    background-color: #222222;
+    color: #ffffff
+  }
+
+  .lastButton:active{
+    background-color: #222222;
+    color: #ffffff
+  }
+
+  .btnDisabled {
+    cursor: pointer;
+    padding:1% 1.5%;;
+    background-color: #ffffff;
+    background-color: #222222;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,164 @@
+.mergeMain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+.resetBox {
+  float: right;
+  position: relative;
+  display: flex;
+  align-content: center;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  cursor:pointer
+}
+
+.resetBtn {
+  font-size: 16px;
+  font-weight: 500;
+  background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible;
+}
+
+.mergeBox0 {
+  position: relative;
+  color: #222;
+  width: 420px;
+}
+
+.mergeBox1 {
+  clear: both;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-color: #F8F4F2;
+  border-top: 0.75px solid #C7C6C6;
+  border-left: 0.75px solid #C7C6C6;
+  border-right: 0.75px solid #C7C6C6;
+  flex-wrap: wrap;
+  padding-left: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+
+.mergeBox2 {
+  position: relative;
+  height: 560px;
+  border: 0.75px solid #C7C6C6;
+  background-color: #F8F4F2;
+  margin-bottom: 12px;
+  padding-left: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mergeItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setMoneyTitle {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.setMoney {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-right: 18px;
+  font-size: 20px;
+  max-width: 145px;
+  position: relative;
+  top: 3px;
+  text-align: right;
+  border: 1px solid #222;
+  border-radius: 5px;
+}
+
+.setMoney:focus {
+  outline: none;
+}
+
+.selectedItemNum {
+  margin-right: 18px;
+}
+
+.remainPrice {
+  margin-right: 18px;
+}
+
+.selectedItemBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 367px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.selectedTitleBox {
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 0.75px solid #C7C6C6;
+  font-weight: 500;
+}
+
+.selectedProductInfoBox {
+  position: relative;
+  display: flex;
+  padding-left: 18px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.selectedProductInfo {
+  padding-left: 18px;
+  padding-top: 9px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.selectedProductImg {
+  width: 85px;
+  height: 72px;
+  background-color: #D9D9D9;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.selectedProductTitle {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;  	
+  white-space: nowrap; 		
+  word-break:break-all;
+  width: 180px;
+}
+
+.selcetedProductPrice {
+  font-weight: 700;
+  padding-top: 11px;
+}
+
+.cancelBtn {
+  position: relative;
+  top: 19px;
+  left: 40px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,44 @@
+
+.productThumb {
+  width: 220px;
+  height: 166px;
+  border-top: 0.75px solid #D0D0D0;
+  border-left: 0.75px solid #D0D0D0;
+  border-right: 0.75px solid #D0D0D0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column
+}
+
+.productDescBox {
+  width: 220px;
+  height: 60px;
+  border: 0.75px solid #D0D0D0;
+  cursor: pointer;
+}
+
+.itemBoxTitle {
+  padding-left: 10px;
+  padding-top: 6.5px;
+  color: #222222;
+  overflow: hidden;
+  text-overflow: ellipsis;  	
+  white-space: nowrap; 		
+  word-break:break-all;
+  width: 200px;
+}
+
+.itemBoxPrice {
+  padding-left: 10px;
+  padding-top: 2px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.itemBoxDatetime {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  margin-top: -20px;
+  color: #CFC6C6;
+}

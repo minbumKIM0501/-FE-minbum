@@ -1,0 +1,188 @@
+.productDetailContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.productDetailContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.productDetailBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 817px;
+  color: #222;
+}
+
+.productDirBox {
+  display: flex;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.productDir1 {
+  position: relative;
+  display: flex;
+  top: 2px;
+}
+
+.productDirBtn {
+  color: #222;
+}
+
+.productDetailBoth {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.productDetailLeftImage {
+  display: flex;
+  width: 400px;
+  height: 340px;
+  background-color: #D9D9D9;
+  align-items: flex-start;
+}
+
+.productDetailRight {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 17px;
+}
+
+.productDetailName {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.productDetailPriceBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.productDetailPrice {
+  font-size: 40px;
+}
+
+.productDetailWon {
+  position: relative;
+  font-size: 20px;
+  top: 18px;
+  left: 5px;
+}
+
+.detailHr {
+  width: 400px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #C7C6C6;
+}
+
+.detailStatus {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.statusAndReport {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.reportBtnBox {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.reportContent {
+  position: relative;
+  top: 1px;
+}
+
+.productDetailSellerHr {
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid #C7C6C6;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.sellerInfoBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellerProfile {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  border-radius: 39px;
+  left: 10px;
+  margin-bottom: 15px;
+  background-color: #D9D9D9;
+}
+
+.sellerName {
+  position: relative;
+  text-align: right;
+  font-size: 24px;
+  margin-top: 22px;
+}
+
+.otherProduct {
+  position: relative;
+  margin-top: 10px;
+  color: #C7C6C6;
+}
+
+.sellerInfo {
+  position: relative;
+}
+
+.detailBtn {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.productInfoAndPlace {
+  display: flex;
+  flex-direction: column;
+}
+
+.productDetailInfoTitle {
+  width: 817px;
+  font-size: 16px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #C7C6C6;
+  font-weight: 500;
+}
+
+.wishPlaceToTraceTitle {
+  width: 817px;
+  border-bottom: 1px solid #C7C6C6;
+  margin-top: 60px;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.homeBtnCursor {
+  cursor: pointer;
+}
+
+

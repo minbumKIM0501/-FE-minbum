@@ -1,0 +1,46 @@
+.productFilterContainer {
+    position: relative;
+  }
+  
+  .productFilter {
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 46px;
+  }
+  
+  .filterName {
+    margin-top: 13px;
+  }
+
+.listFilterBox {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.setMoneyFilter {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-right: 18px;
+  font-size: 20px;
+  max-width: 145px;
+  margin-top: 22px;
+  text-align: right;
+  height: 31px;
+  border-radius: 5px;
+  border: 1px solid #222;
+}
+
+.setMoneyFilter:focus {
+  outline: none;
+}
+
+.moneyBetween {
+  position: relative;
+  margin-top: 27px;
+  font-size: 20px;
+  left: -8px;
+}

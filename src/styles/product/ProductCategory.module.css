@@ -1,0 +1,100 @@
+
+
+.cateAll {
+  position: relative;
+  margin-right: 25px;
+  margin-bottom: 22px;
+  margin-top: 32px;
+}
+
+.cate0 {
+  position: relative;
+  display: flex;
+}
+
+.cate1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 130px;
+  height: 39px;
+  background-color: #222222;
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 2px solid #fff;
+}
+
+.cateTitle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cate2 {
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-color: #eee;
+  min-width: 700px;
+  height: 39px;
+  border-bottom: 0.75px solid #c7c6c6;
+  padding-left: 10px;
+}
+
+.cateUpper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 13px;
+  border: 1px solid #222;
+  height: 16px;
+  font-size: 16px;
+}
+
+.cate3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 13px;
+  height: 16px;
+  font-size: 16px;
+  color: #222;
+  cursor: pointer;
+}
+
+.cate3Selected {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 13px;
+  height: 16px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #EF6253;
+}
+
+
+.cate4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.categorySearchBtn {
+  float: right;
+  margin-top: 22px;
+}

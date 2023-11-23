@@ -1,0 +1,51 @@
+.headerLayout {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    min-width: 755px;
+    font-size: 20px;
+    flex-direction: row-reverse;
+    font-weight: 500;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+}
+
+
+.headerContainter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-right: 113px;
+}
+
+.headerNotActive {
+    position: relative;
+    color: #9d9d9d;
+}
+
+.headerNotActive img {
+    position: relative;
+    top: 2px;
+}
+
+.headerActive {
+    position: relative;
+    color: #EF6253;
+}
+
+.headerActive img {
+    position: relative;
+    top: 2px;
+}
+
+.headerMessage {
+    position: relative;
+    top: 3px;
+}
+
+body {
+    margin: 0;
+}
